@@ -15,18 +15,25 @@
       "type": "vector",
       "url": "https://tiles.openfreemap.org/planet"
     },
+    "elr": {
+      "type": "vector",
+      "url": "https://chaintrak-tiles.r2.cloudflarestorage.com/elr.pmtiles"
+    },
     "tracklines": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/0198b8a8-0bd3-7cc9-9fb6-c45d86448861/tiles.json?key=h8gn1QrSZtuP7BqUtzqt"
+      "url": "https://chaintrak-tiles.r2.cloudflarestorage.com/tracklines.pmtiles"
     },
     "mileposts": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/0198b86b-b0c8-7ba2-a809-abe35b375a31/tiles.json?key=h8gn1QrSZtuP7BqUtzqt"
+      "url": "https://chaintrak-tiles.r2.cloudflarestorage.com/mileposts.pmtiles"
     }
   },
   "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
+    // Reuse or add your existing layer styles referencing "elr", "tracklines", "mileposts", "openmaptiles", "ne2_shaded"
+  ]
+}
     {
       "id": "background",
       "type": "background",
