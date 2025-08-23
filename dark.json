@@ -31,7 +31,6 @@
   "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
   "layers": [
-    // Reuse or add your existing layer styles referencing "elr", "tracklines", "mileposts", "openmaptiles", "ne2_shaded"
   ]
 }
     {
