@@ -4,15 +4,15 @@
   "sources": {
     "elr": {
       "type": "vector",
-      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/elr.pmtiles"
+      "url": "https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/elr.json"
     },
     "tracklines": {
       "type": "vector",
-      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/tracklines.pmtiles"
+      "url": "https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/tracklines.json"
     },
     "mileposts": {
       "type": "vector",
-      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/mileposts.pmtiles"
+      "url": "https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/mileposts.json"
     }
   },
   "layers": [
