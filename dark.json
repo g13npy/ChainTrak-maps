@@ -211,7 +211,7 @@
       "filter": [
         "all",
         ["!=", ["get", "class"], "river"],
-        ["!=", ["get", "brunnel"], "tunnel"
+        ["!=", ["get", "brunnel"], "tunnel"]
       ],
       "layout": {"line-cap": "round"},
       "paint": {
@@ -1295,7 +1295,7 @@
       "filter": [
         "all",
         ["==", ["get", "class"], "link"],
-        ["==", ["get", "brunnel"], "bridge"
+        ["==", ["get", "brunnel"], "bridge"]
       ],
       "layout": {"line-join": "round"},
       "paint": {
@@ -1550,7 +1550,7 @@
       "filter": [
         "all",
         ["==", ["get", "class"], "link"],
-        ["==", ["get", "brunnel"], "bridge"
+        ["==", ["get", "brunnel"], "bridge"]
       ],
       "layout": {"line-join": "round"},
       "paint": {
@@ -1731,4 +1731,5 @@
   "glyphs": "https://example.com/fonts/{fontstack}/{range}.pbf",
   "sprite": "https://example.com/sprites/sprite"
 }
+             
              
