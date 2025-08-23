@@ -4,15 +4,15 @@
   "sources": {
     "elr": {
       "type": "vector",
-      "url": "https://chaintrak-tiles.r2.cloudflarestorage.com/elr.pmtiles"
+      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/elr.pmtiles"
     },
     "tracklines": {
       "type": "vector",
-      "url": "https://chaintrak-tiles.r2.cloudflarestorage.com/tracklines.pmtiles"
+      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/tracklines.pmtiles"
     },
     "mileposts": {
       "type": "vector",
-      "url": "https://chaintrak-tiles.r2.cloudflarestorage.com/mileposts.pmtiles"
+      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/mileposts.pmtiles"
     },
     "openmaptiles": {
       "type": "vector",
