@@ -1,4 +1,4 @@
-  {
+    {
     "version": 8,
   "name": "Dark",
   "metadata": {},
@@ -2536,7 +2536,8 @@
         "text-halo-blur": 0.4
       }
     },
-    {"id": "mileposts-nodes",
+    {
+      "id": "mileposts-nodes",
       "type": "circle",
       "source": "mileposts",
       "source-layer": "mileposts",
@@ -2545,6 +2546,7 @@
         "circle-radius": ["interpolate", ["linear"], ["zoom"], 12, 1.2, 18, 2.2],
         "circle-color": "rgba(255, 180, 0, 1)",
         "circle-opacity": ["interpolate", ["linear"], ["zoom"], 12, 0.2, 16, 0.55]
+      }
     }
   ],
   "id": "xsncpo2lb"
