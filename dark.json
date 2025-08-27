@@ -1728,8 +1728,8 @@
       }
     }
   ],
-  "glyphs": "https://example.com/fonts/{fontstack}/{range}.pbf",
-  "sprite": "https://example.com/sprites/sprite"
+  "glyphs": "https://fonts.openmaptiles.org/{fontstack}/{range}.pbf",
+  "sprite": "https://tiles.openfreemap.org/styles/liberty/sprite"
 }
              
              
