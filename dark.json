@@ -15,18 +15,24 @@
       "type": "vector",
       "url": "https://tiles.openfreemap.org/planet"
     },
-    "elr": {
-      "type": "vector",
-      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/elr.pmtiles"
-    },
-    "tracklines": {
-      "type": "vector",
-      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/tracklines.pmtiles"
-    },
-    "mileposts": {
-      "type": "vector",
-      "url": "https://pub-71efc0637d23483db960a37a14dfc994.r2.dev/mileposts.pmtiles"
-    }
+   "elr": {
+    "type": "vector",
+    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/elr/{z}/{x}/{y}.mvt"],
+    "minzoom": 8,
+    "maxzoom": 20
+  },
+  "tracklines": {
+    "type": "vector",
+    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/tracklines/{z}/{x}/{y}.mvt"],
+    "minzoom": 8,
+    "maxzoom": 20
+  },
+  "mileposts": {
+    "type": "vector",
+    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/mileposts/{z}/{x}/{y}.mvt"],
+    "minzoom": 8,
+    "maxzoom": 20
+  }
   },
   "sprite": "https://tiles.openfreemap.org/sprites/ofm_f384/ofm",
   "glyphs": "https://tiles.openfreemap.org/fonts/{fontstack}/{range}.pbf",
