@@ -17,19 +17,19 @@
     },
    "elr": {
     "type": "vector",
-    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/elr/{z}/{x}/{y}.mvt"],
+    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/elr.json"],
     "minzoom": 8,
     "maxzoom": 20
   },
   "tracklines": {
     "type": "vector",
-    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/tracklines/{z}/{x}/{y}.mvt"],
+    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/tracklines.json"],
     "minzoom": 8,
     "maxzoom": 20
   },
   "mileposts": {
     "type": "vector",
-    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/mileposts/{z}/{x}/{y}.mvt"],
+    "tiles": ["https://pmtiles-worker.glen-fitchett89.workers.dev/tiles/mileposts.json"],
     "minzoom": 8,
     "maxzoom": 20
   }
