@@ -2530,30 +2530,32 @@
         "text-halo-width": 1
       }
     },
-       {
-      "id": "tracklines-labels",
-      "type": "symbol",
-      "source": "tracklines",
-      "source-layer": "tracklines",
-      "minzoom": 15,
-      "filter": ["has", "TRACK_NAME"],
-      "layout": {
-        "symbol-placement": "line-center",
-        "symbol-spacing": 350,
-        "text-field": ["coalesce", ["get", "TRACK_NAME"], ["get", "name"]],
-        "text-font": ["Noto Sans Regular"],
-        "text-size": ["interpolate", ["linear"], ["zoom"], 12, 11, 15, 12.5, 18, 14],
-        "text-rotation-alignment": "map",
-        "text-keep-upright": true
-      },
-      "paint": {
-        "text-color": "#fff",
-        "text-halo-color": "#000000",
-        "text-halo-width": 1.2,
-        "text-halo-blur": 0.4
-      }
-    },
-    {
+  {
+  "id": "tracklines-labels",
+  "type": "symbol",
+  "source": "tracklines",
+  "source-layer": "tracklines",
+  "minzoom": 15,
+  "filter": ["has", "TRACK_NAME"],
+  "layout": {
+    "symbol-placement": "line",
+    "symbol-spacing": 350,
+    "text-field": ["coalesce", ["get", "TRACK_NAME"], ["get", "name"]],
+    "text-font": ["Noto Sans Regular"],
+    "text-size": ["interpolate", ["linear"], ["zoom"], 12, 11, 15, 12.5, 18, 14],
+    "text-rotation-alignment": "map",
+    "text-keep-upright": true,
+    "symbol-avoid-edges": true
+  },
+  "paint": {
+    "text-color": "#ffffff",
+    "text-halo-color": "#000000",
+    "text-halo-width": 1.2,
+    "text-halo-blur": 0.4
+  }
+},
+
+  {
       "id": "mileposts-nodes",
       "type": "circle",
       "source": "mileposts",
